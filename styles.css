@@ -18,9 +18,8 @@ body {
   background-color: var(--white-color);
 }
 img {
-  width: 200px;
+  width: 12.5rem;
 }
-
 /* Navigation */
 .nav {
   display: flex;
@@ -75,7 +74,7 @@ h2 {
 }
 h1 {
   font-size: 5.625rem;
-  margin: 50px auto 0 auto;
+  margin: 3.125rem auto 0 auto;
 }
 #project-link {
   color: #e63946;
@@ -86,7 +85,7 @@ h1 {
 h2 {
   font-size: 4rem;
   font-weight: normal;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 .sub-title {
   color: var(--color-blue);
@@ -122,7 +121,7 @@ hr {
 a {
   color: var(--color-blue);
   font-family: "Montserrat", sans-serif;
-  margin: 10px 20px;
+  margin: 0.625rem 1.25rem;
   text-decoration: none;
 }
 
@@ -146,8 +145,8 @@ a:hover {
 .top-container {
   background-color: var(--white-color);
   position: relative;
-  padding-top: 100px;
-  margin-top: 85px;
+  padding-top: 6.25rem;
+  margin-top: 5.3125rem;
 }
 
 .middle-container {
@@ -156,15 +155,15 @@ a:hover {
 
 .bottom-container {
   background-color: #3d405b;
-  padding: 50px 0 20px;
+  padding: 3.125rem 0 1.25rem;
   color: var(--white-color);
-  border-bottom: 20px solid black;
-  border-top: 20px solid black;
+  border-bottom: 1.25rem solid black;
+  border-top: 1.25rem solid black;
 }
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 6.25rem auto 6.25rem auto;
   text-align: left;
 }
 
@@ -180,22 +179,23 @@ a:hover {
 
 .contact-message {
   width: 40%;
-  margin: 40px auto 60px;
+  margin: 2.5rem auto 3.75rem;
 }
 
 .copyright {
   color: var(--white-color);
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .top-cloud {
   position: absolute;
-  right: 250px;
-  top: 40px;
-  width: 200px;
-  height: 180px;
+  right: 15.625rem;
+  top: 2.5rem;
+  width: 12.5rem;
+  height: 11.25rem;
   animation: topCloud 1s ease-out;
+  z-index: 1000;
 }
 @keyframes topCloud {
   0% {
@@ -224,12 +224,13 @@ a:hover {
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 300px;
-  top: 360px;
-  width: 200px;
-  height: 180px;
+  left: 25.625rem;
+  bottom: 18.75rem;
+  top: 22.5rem;
+  width: 12.5rem;
+  height: 11.25rem;
   animation: bottomCloud 1s ease-out;
+  z-index: 1000;
 }
 @keyframes bottomCloud {
   0% {
@@ -241,17 +242,18 @@ a:hover {
     transform: translate(0);
   }
 }
-
+.chilli-img,
 .code-img {
   width: 25%;
+}
+.code-img {
   float: left;
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 
 .chilli-img {
-  width: 25%;
   float: right;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 
 .mountain {
@@ -273,7 +275,7 @@ a:hover {
 .projects-section {
   padding: 5rem 0rem;
   background: var(--white-color);
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .projects-section-header {
@@ -332,49 +334,24 @@ a:hover {
   color: var(--color-blue);
 }
 #btn {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-size: 1.2rem;
-  background-color: var(--color);
-
+  background-color: #e63946;
   padding: 0.8rem 2rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s ease-out;
   position: relative;
+  background-color: var(--color-blue);
 }
 #btn:hover {
   color: var(--white-color);
-  background-color: var(--color-blue);
   transform: translateY(-5px);
+  background-color: #e63946;
 }
 #btn:active {
   transform: scaleX(0.9) scaleY(1);
-}
-.btn {
-  display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 2px;
-}
-
-.btn-show-all {
-  font-size: 2rem;
-  background: var(--main-gray);
-  transition: background 0.3s ease-out;
-}
-
-.btn-show-all:hover {
-  background: var(--main-red);
-}
-
-.btn-show-all:hover > i {
-  transform: translateX(2px);
-}
-
-.btn-show-all > i {
-  margin-left: 10px;
-  transform: translateX(0);
-  transition: transform 0.3s ease-out;
 }
 
 .contact-section {
@@ -407,7 +384,7 @@ a:hover {
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 980px;
+  max-width: 61.25rem;
   margin-top: 4rem;
   flex-wrap: wrap;
 }
@@ -425,12 +402,10 @@ a:hover {
 
 #footer {
   background-color: #000;
-  /* padding: 20px 350px; */
 }
 .footer {
-  /* background-color: #22223b; */
   margin: -25px 0;
-  padding-top: 50px;
+  padding-top: 3.125rem;
   background-color: #000;
 }
 .nav-item {
